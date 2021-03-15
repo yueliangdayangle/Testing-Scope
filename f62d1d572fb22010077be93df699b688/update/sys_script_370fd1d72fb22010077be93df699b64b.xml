@@ -30,6 +30,13 @@
         <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
 
 	// Add your code here
+	var loanerRecs = new GlideRecord('x_58874_loaner_req_loaner_requset');
+	loanerRecs.addQuery('state','!=',3);
+	loanerRecs.query();
+	while(loanerRecs.next()){
+		loanerRecs.setValue('state',3);
+		loanerRecs.update();
+		}
 
 })(current, previous);]]></script>
         <sys_class_name>sys_script</sys_class_name>
@@ -38,7 +45,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>370fd1d72fb22010077be93df699b64b</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Malicious Script</sys_name>
         <sys_overrides/>
         <sys_package display_value="Testing Application Access" source="x_587742_testing_a">f62d1d572fb22010077be93df699b688</sys_package>
@@ -46,7 +53,7 @@
         <sys_scope display_value="Testing Application Access">f62d1d572fb22010077be93df699b688</sys_scope>
         <sys_update_name>sys_script_370fd1d72fb22010077be93df699b64b</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-03-15 05:29:54</sys_updated_on>
+        <sys_updated_on>2021-03-15 05:49:23</sys_updated_on>
         <template/>
         <when>before</when>
     </sys_script>
