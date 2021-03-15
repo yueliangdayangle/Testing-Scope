@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>1000</order>
+        <role display_value="x_587742_testing_a.testing_scope_user" name="x_587742_testing_a.testing_scope_user">b70e55972fb22010077be93df699b648</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-15 05:24:38</sys_created_on>
+        <sys_id>bb0e55972fb22010077be93df699b64b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>b70e55972fb22010077be93df699b648</sys_name>
+        <sys_package display_value="Testing Application Access" source="x_587742_testing_a">f62d1d572fb22010077be93df699b688</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Testing Application Access">f62d1d572fb22010077be93df699b688</sys_scope>
+        <sys_update_name>sys_embedded_help_role_bb0e55972fb22010077be93df699b64b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-15 05:24:38</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>
